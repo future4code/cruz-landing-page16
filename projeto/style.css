@@ -152,13 +152,14 @@ header div {
 /* Kelvia Seciton 1 e 3*/
 
 .apresentacao{
-    border: 1px solid rgba(128, 128, 128, 0.301);
     margin: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Barlow', sans-serif;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
 }
 
 .logo-apres{
@@ -174,8 +175,9 @@ header div {
     font-family: 'Barlow', sans-serif;
     display: flex;
     justify-content:center;
-    background-color: rgba(12, 75, 250, 0.075);
+    background-color: rgba(161, 175, 212, 0.075);
     border-radius: 10px;
+    border-top: 1px solid gray;
 }
 
 h2{
