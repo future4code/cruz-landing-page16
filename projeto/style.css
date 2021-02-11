@@ -24,12 +24,13 @@ header {
 
     height: 70px;
     background-color: #132235;
-    height: 8%;
+    height: 10%;
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
 }
 header div {
     width: 80%;
+    height: 100%;
     margin: auto;
     display: flex;
     align-items: center;
