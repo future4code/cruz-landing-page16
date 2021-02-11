@@ -1,7 +1,5 @@
 /* Geral */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
-
 
 *{
     padding: 0;
@@ -10,7 +8,6 @@
     font-family: 'Barlow', sans-serif;
 }
 body{
-    flex-direction: column;
     height: 100vh;
 }
 
@@ -19,20 +16,18 @@ HEX : #132235 Azul escuro
 HEX : #61c2bf Azul Claro
 HEX : #7d8690 Cinza
  */
-
-
 /* Jose */
 
 header {
     display: flex;
     align-items: center;
 
+    height: 70px;
     background-color: #132235;
     height: 10%;
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
 }
-
 header div {
     width: 80%;
     height: 100%;
@@ -59,7 +54,6 @@ header div {
 
 #container-menu {
     width: 40%;
-
     display: flex;
     justify-content: flex-start;
 }
@@ -81,7 +75,6 @@ header div {
 /* Janaylla */
 #apartamento{
     display: flex;
-    padding: 10px;
     padding: 10px;
     flex-direction: column;
     align-items: center;
@@ -147,54 +140,117 @@ header div {
 #apartamento h1{
     font-size: 30px;
 }
-
 }
+
+footer
+{
+    display: flex;
+    background-color: #7d8690;
+    padding: 20px;
+}
+footer h4{
+    margin: 10px;
+}
+
 /* Kelvia Seciton 1 e 3*/
 
-.apresentacao{
-    margin: 10px;
-    padding: 10px;
+#apresentacao{
+    padding: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Barlow', sans-serif;
     border-bottom: 1px solid gray;
-    border-radius: 10px;
+}
+
+#apresentacao h1{
+    font-size: 50px;
+    width: 500px;
+    text-align: center;
+
 }
 
 .logo-apres{
     width: 300px;
     height: 300px;
     border: 1px solid black;
-    border-radius: 10px;
     
 }
 
 #quem-somos{
-    margin: 30px;
+    padding: 20px;
     font-family: 'Barlow', sans-serif;
-    display: flex;
-    justify-content:center;
-    background-color: rgba(55, 202, 129, 0.075);
-    border-radius: 10px;
     border-top: 1px solid gray;
 }
 
-h2{
-    font-size: 24px;
+
+#quem-somos h2{
+    color: #132235;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+
 }
+
 
 .text-phot-who{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .img-Sobre{
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 20px;
+    margin: 10px;
+    width: 100%;
 }
 
+@media screen and (max-device-width: 420px){
+    
+    #quem-somos {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+
+    #quem-somos h2{
+        font-size: 23px;
+
+    }
+
+    .text-phot-who {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-Sobre{
+        width: 100%;
+        
+    }
+
+    
+    }
+
+    @media screen and (max-device-width: 420px){
+        #apresentacao{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        #apresentacao h1{
+            font-size: 30px;
+            width: 100%;
+        }
+
+        #apresentacao img{
+            margin-top:20px;
+        }
+
+    }
