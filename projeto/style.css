@@ -73,16 +73,24 @@ HEX : #7d8690 Cinza
 }
 
 #quem-somos{
-    border: 1px solid rgba(128, 128, 128, 0.301);
-    margin: 10px;
+    margin: 30px;
     font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content:center;
+    background-color: rgba(12, 75, 250, 0.192);
 }
+
+h2{
+    font-size: 24px;
+}
+
 
 .text-phot-who{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    font-size: 18px;
 }
 
 .img-Sobre{
