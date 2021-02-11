@@ -134,9 +134,16 @@ header div {
 }
 
 #quem-somos{
-    border: 1px solid rgba(128, 128, 128, 0.301);
-    margin: 10px;
+    margin: 30px;
     font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content:center;
+    background-color: rgba(12, 75, 250, 0.075);
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 24px;
 }
 
 .text-phot-who{
@@ -144,6 +151,7 @@ header div {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    font-size: 18px;
 }
 
 .img-Sobre{
