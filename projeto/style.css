@@ -1,4 +1,6 @@
 /* Geral */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +9,7 @@
 body{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 /* Cores da Logo:
@@ -19,15 +22,58 @@ HEX : #7d8690 Cinza
 /* Jose */
 
 header {
+    display: flex;
+    align-items: center;
+
     background-color: #132235;
+    height: 8%;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+}
+
+header div {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
 }
 
 #container-logo img {
     width: 40px;
 }
 
+#container-logo p {
+    margin-left: 1%;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    letter-spacing: 4px;
+}
+
+#container-logo p, .menu-item a {
+    color: #61c2bf;
+}
+
+
 #container-menu {
+    width: 40%;
+
     display: flex;
+    justify-content: flex-start;
+}
+
+#container-menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-item a {
+    color: #61c2bf;
+    text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: 2px;
 }
 
 /* Janaylla */
