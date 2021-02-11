@@ -1,7 +1,5 @@
 /* Geral */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
-
 
 *{
     padding: 0;
@@ -10,8 +8,6 @@
     font-family: 'Barlow', sans-serif;
 }
 body{
-    display: flex;
-    flex-direction: column;
     height: 100vh;
 }
 
@@ -20,20 +16,18 @@ HEX : #132235 Azul escuro
 HEX : #61c2bf Azul Claro
 HEX : #7d8690 Cinza
  */
-
-
 /* Jose */
 
 header {
     display: flex;
     align-items: center;
 
+    height: 70px;
     background-color: #132235;
     height: 8%;
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
 }
-
 header div {
     width: 80%;
     margin: auto;
@@ -59,7 +53,6 @@ header div {
 
 #container-menu {
     width: 40%;
-
     display: flex;
     justify-content: flex-start;
 }
@@ -81,7 +74,6 @@ header div {
 /* Janaylla */
 #apartamento{
     display: flex;
-    padding: 10px;
     padding: 10px;
     flex-direction: column;
     align-items: center;
@@ -147,41 +139,46 @@ header div {
 #apartamento h1{
     font-size: 30px;
 }
+}
 
+footer
+{
+    display: flex;
+    background-color: #7d8690;
+    padding: 20px;
+}
+footer h4{
+    margin: 10px;
 }
 /* Kelvia Seciton 1 e 3*/
-
 .apresentacao{
-    border: 1px solid rgba(128, 128, 128, 0.301);
     margin: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Barlow', sans-serif;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
 }
-
 .logo-apres{
     width: 300px;
     height: 300px;
     border: 1px solid black;
     border-radius: 10px;
-    
 }
-
 #quem-somos{
     margin: 30px;
     font-family: 'Barlow', sans-serif;
     display: flex;
     justify-content:center;
-    background-color: rgba(12, 75, 250, 0.192);
+    background-color: rgba(161, 175, 212, 0.075);
+    border-radius: 10px;
+    border-top: 1px solid gray;
 }
-
 h2{
     font-size: 24px;
 }
-
-
 .text-phot-who{
     display: flex;
     justify-content: space-between;
@@ -189,7 +186,6 @@ h2{
     padding: 20px;
     font-size: 18px;
 }
-
 .img-Sobre{
     border: 1px solid black;
     border-radius: 10px;
