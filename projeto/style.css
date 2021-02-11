@@ -8,12 +8,27 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 /* Cores da Logo:
 HEX : #132235 Azul escuro
 HEX : #61c2bf Azul Claro
 HEX : #7d8690 Cinza
  */
+
+
 /* Jose */
+
+header {
+    background-color: #132235;
+}
+
+#container-logo img {
+    width: 40px;
+}
+
+#container-menu {
+    display: flex;
+}
 
 /* Janaylla */
 #apartamento{
