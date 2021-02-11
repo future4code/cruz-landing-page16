@@ -1,0 +1,55 @@
+/* Geral */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* Cores da Logo:
+HEX : #132235 Azul escuro
+HEX : #61c2bf Azul Claro
+HEX : #7d8690 Cinza
+ */
+/* Jose */
+
+/* Janaylla */
+#apartamento{
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+#apartamento #apts{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#apartamento div .box-apt {
+    margin: 10px;
+    background-color: blue;
+}
+#apartamento #apts .box-apt img{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+#apartamento button{
+    cursor: pointer;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 2px;
+    border: solid 3px #61c2bf;
+}
+#apartamento button:hover{
+    background-color: #61c2bf;
+}
+/* Kelvia Seciton 1 e 3*/
