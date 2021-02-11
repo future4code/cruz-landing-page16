@@ -1,13 +1,18 @@
 /* Geral */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
 }
 body{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
+
 /* Cores da Logo:
 HEX : #132235 Azul escuro
 HEX : #61c2bf Azul Claro
@@ -15,31 +20,91 @@ HEX : #7d8690 Cinza
  */
 /* Jose */
 
+header {
+    display: flex;
+    align-items: center;
+
+    background-color: #132235;
+    height: 8%;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+}
+
+header div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#container-logo img {
+    width: 40px;
+}
+
+#container-logo p {
+    margin-left: 1%;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    letter-spacing: 4px;
+}
+
+#container-logo p, .menu-item a {
+    color: #61c2bf;
+}
+
+
+#container-menu {
+    width: 40%;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+#container-menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-item a {
+    color: #61c2bf;
+    text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
 /* Janaylla */
 #apartamento{
-    border: 2px solid black;
     display: flex;
     padding: 10px;
     padding: 10px;
     flex-direction: column;
     align-items: center;
 }
+#apartamento h1{
+    color: #132235;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
 #apartamento #apts{
-    border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    
+    padding: 20px;
+    margin: 20px 0px;
+    flex-wrap: wrap; 
 }
 #apartamento div .box-apt {
+    width: 30%;
     margin: 10px;
-    background-color: blue;
 }
 #apartamento #apts .box-apt img{
-    border: 2px solid black;
-    height: 200px;
-    width: 200px;
+    width: 100%;
+    cursor: pointer;
 }
 #apartamento button{
     cursor: pointer;
@@ -47,10 +112,38 @@ HEX : #7d8690 Cinza
     padding: 10px;
     background-color: white;
     border-radius: 2px;
-    border: solid 3px #61c2bf;
+    border: solid 3px #132235;
+    font-size: 20px;
 }
 #apartamento button:hover{
-    background-color: #61c2bf;
+    background-color: #132235;
+    color: white;
+}
+@media screen and (max-device-width: 420px){
+    
+#apartamento div .box-apt {
+    width: 100%;
+}
+#apartamento h1{
+    font-size: 23px;
+}
+#apartamento #apts{
+    margin: 0px 0px; 
+    padding: 5px;
+}
+}
+@media screen and (max-device-width: 800px) and  (min-device-width: 421px)
+{     #apartamento #apts{
+    margin: 10px;
+    padding: 10px;
+}
+    #apartamento div .box-apt {
+        width: 43%;
+    }
+#apartamento h1{
+    font-size: 30px;
+}
+
 }
 /* Kelvia Seciton 1 e 3*/
 
