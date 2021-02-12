@@ -1,7 +1,5 @@
 /* Geral */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
-
 
 *{
     padding: 0;
@@ -10,17 +8,21 @@
     font-family: 'Barlow', sans-serif;
 }
 body{
-    flex-direction: column;
     height: 100vh;
 }
 
+h2{
+    color: #132235;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
 /* Cores da Logo:
 HEX : #132235 Azul escuro
 HEX : #61c2bf Azul Claro
 HEX : #7d8690 Cinza
  */
-
-
 /* Jose */
 
 header {
@@ -165,17 +167,9 @@ header div {
 /* Janaylla */
 #apartamento{
     display: flex;
-    padding: 10px;
-    padding: 10px;
+    padding: 40px 20px;
     flex-direction: column;
     align-items: center;
-}
-#apartamento h1{
-    color: #132235;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 10px;
-    font-size: 40px;
 }
 #apartamento #apts{
     display: flex;
@@ -207,75 +201,154 @@ header div {
     background-color: #132235;
     color: white;
 }
-@media screen and (max-device-width: 420px){
-    
-#apartamento div .box-apt {
-    width: 100%;
+
+footer
+{
+    display: flex;
+    background-color: #7d8690;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; 
 }
-#apartamento h1{
-    font-size: 23px;
+footer div{
+    width: 30%;
 }
-#apartamento #apts{
-    margin: 0px 0px; 
-    padding: 5px;
-}
-}
-@media screen and (max-device-width: 800px) and  (min-device-width: 421px)
-{     #apartamento #apts{
+footer h4{
     margin: 10px;
-    padding: 10px;
 }
-    #apartamento div .box-apt {
-        width: 43%;
-    }
-#apartamento h1{
-    font-size: 30px;
+footer #redes-socias img{
+    width: 35px;
+    margin: 10px;
+    cursor: pointer;
 }
 
-}
 /* Kelvia Seciton 1 e 3*/
 
-.apresentacao{
-    border: 1px solid rgba(128, 128, 128, 0.301);
-    margin: 10px;
-    padding: 10px;
+#apresentacao{
+    padding: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Barlow', sans-serif;
+    border-bottom: 1px solid gray;
+    background-color: #132235;
+    min-height: 500px;
+    flex-wrap: wrap;
 }
-
+#apresentacao h1{
+    font-size: 50px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    text-transform: none;
+}
 .logo-apres{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
-    
+    width: 400px;
+    height: 400px;
 }
-
 #quem-somos{
-    margin: 30px;
+    padding: 20px;
     font-family: 'Barlow', sans-serif;
-    display: flex;
-    justify-content:center;
-    background-color: rgba(12, 75, 250, 0.192);
+    border-top: 1px solid gray;
 }
-
-h2{
-    font-size: 24px;
-}
-
-
 .text-phot-who{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
 }
-
 .img-Sobre{
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 20px;
+    margin: 10px;
+    width:300px;
+}
+    @media screen and (max-device-width: 420px){
+        h2{
+            font-size: 25px;
+            }
+         
+        #apresentacao{
+            display: flex;
+            height: auto;
+            align-content: center;
+        }
+        #apresentacao img{
+            margin-top:20px;
+            width: 100%;
+            height: auto;
+        }
+        #quem-somos {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        .text-phot-who {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-Sobre{
+            width: 100%;
+            margin: 20px;
+        }
+        footer div{
+            width: 100%;
+            margin-bottom: 5px;
+        }  
+        #apartamento div .box-apt {
+            width: 100%;
+        }
+        #apartamento #apts{
+            margin: 0px 0px; 
+            padding: 5px;
+        }
+    }
+    
+@media screen and (max-device-width: 800px) and  (min-device-width: 421px){
+    #apresentacao {
+        height: auto;  
+        flex-direction: column;
+        align-content: center;
+        align-items: stretch;
+    }
+    
+    #apresentacao img{
+        margin-top:20px;
+        width: 100%px;
+        height: auto;
+    }
+    
+    .text-phot-who {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-Sobre{
+        width: 420px;
+    }
+    footer{
+        padding: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        }
+        footer div{
+            width: 43%;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        #apartamento #apts{
+            margin: 10px;
+            padding: 10px;
+        }
+            #apartamento div .box-apt {
+                width: 43%;
+        }
 }
