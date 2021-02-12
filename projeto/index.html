@@ -6,24 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
+    <link rel="icon" href="./img/Logo-icon.png">
+    <title>F4life</title>
 
+</head>
+  <!-- José -->
+  <header>
+    <div>
+        <div id="container-logo">
+            <img src="./img/Logo-icon.png" alt="logo f4 life">
+            <p>F4LIFE</p>
+        </div>
+
+        <nav id="container-menu">
+            <input type="checkbox" id="btn-menu-mobile">
+            <label class="btn-menu-mobile-label" for="btn-menu-mobile">
+                <span>Menu</span>
+            </label>
+            <ul>
+                <li class="menu-item"><a href="#apartamento">Imóveis</a></li>
+                <li class="menu-item"><a href="#alugue-apartamento">Anuncie</a></li>
+                <!-- <li class="menu-item"><a href="">Perguntas frequêntes</a></li> -->
+                <li class="menu-item"><a href="#quem-somos">Quem somos</a></li>
+                <li class="menu-item"><a href="#cases">Cases</a></li>
+                <li class="menu-item"><a href="#footer">Contato</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
 <body>
     <!-- José -->
     <header>
     </header>
     <main>
-      <!-- Kelvia -->
-      <section>
-        <div id="apresentacao">
+        <!-- Kelvia -->
+        <section id="apresentacao">
             <div>
-            <h1>Precisando Morar  Perto da Sua Universidade?</h1>
-            <h1>Nós te Ajudamos!</h1>
+                <h1>Precisando Morar Perto da Sua Universidade?</h1>
+                <h1>Nós te Ajudamos!</h1>
             </div>
-            <img class="logo-apres"src="./img/Logo.png" alt="logo" >
-        </div>
-    </section>
+            <img class="logo-apres" src="./img/Logo.png" alt="logo">
+        </section>
 
         <!-- Janaylla -->
         <section id="apartamento">
@@ -33,49 +57,109 @@
                     <img src="img/apt1.jpg">
                     <h5>R$ 155,99</h5>
                     <h6>Rua das flores </h6>
-                    <h6>24m - 2 quartos</h6>
+                    <h6>24m - 6 cômodos</h6>
                 </div>
                 <div class="box-apt">
                     <img src="img/apt2.jpg">
                     <h5>R$ 155,99</h5>
                     <h6>Rua das flores </h6>
-                    <h6>24m - 2 quartos</h6>
+                    <h6>24m - 3 cômodos</h6>
                 </div>
                 <div class="box-apt">
                     <img src="img/apt3.jpg">
                     <h5>R$ 155,99</h5>
                     <h6>Rua das flores </h6>
-                    <h6>24m - 2 quartos</h6>
+                    <h6>24m - 5 cômodos</h6>
                 </div>
 
             </div>
             <button>Ver mais apartamentos</button>
         </section>
 
-<!-- Keivia -->
-    <section id="quem-somos">
-        <h2>QUEM SOMOS</h2>
-        <div class="text-phot-who">
-            <img class="img-Sobre"src="./img/quem.jpg" alt="republica">
-            <p>A F4Life existe para auxiliar estudantes a escolher o melhor lugar para morar e cuidar dele durante seu tempo na universidade. Sabemos que você precisa de tempo e tranquilidade para se dedicar aos estudos e relaxar e a F4life cuidará de tudo para você te apresentando os melhores ambientes nos melhores locais, oferencendo as reformas necessárias e tudo isso com tranquilidade. Com alguns cliques, resolvemos tudo para você. </p>
-        </div>
-    </section>
         <!-- Janaylla -->
-        <footer>
-
-
+        <section id="alugue-apartamento">
+            <h2>Alugue seu apartamento</h2>
+            <div>
+                <div>
+                <h2>Anuncie com a gente, nosso tempo médio de espera é 13 dias</h2>
+                    <img src="img/alugue.jpg">
+                </div>
+                <form>
+                    <label>Nome<p>*</p></label>
+                    <input type="text" name="txtNome" id="txtNome">
+                    <label>E-mail<p>*</p></label>
+                    <input type="email" name="txtEmail" id="txtEmail">
+                    <label>Telefone<p>*</p></label>
+                    <input type="tel" name="txtTel" id="txtTel">
+                    <label>Cidade/UF<p>*</p></label>
+                    <input type="text" name="txtCid" id="txtCid">
+                    <label>Endereço<p>*</p></label>
+                    <input type="text" name="txtEnd" id="txtEnd">
+                    <label>Preço<p>*</p></label>
+                    <input type="text" name="txtCom" id="txtCom">
+                    <p>Atenção: após o envio check seu e-mail para continuar o cadastro</p>
+                    <button>Enviar</button>
+            </div>
+            </form>
+        </section>
+        <section id="quem-somos">
+            <h2>QUEM SOMOS</h2>
+            <div class="text-phot-who">
+                <img class="img-Sobre" src="./img/quem.jpg" alt="republica">
+                <p>A F4Life existe para auxiliar estudantes a escolher o melhor lugar para morar e cuidar dele durante
+                    seu tempo na universidade. Sabemos que você precisa de tempo e tranquilidade para se dedicar aos
+                    estudos e relaxar e a F4life cuidará de tudo para você te apresentando os melhores ambientes nos
+                    melhores locais, oferencendo as reformas necessárias e tudo isso com tranquilidade. Com alguns
+                    cliques, resolvemos tudo para você. </p>
+            </div>
+        </section>
+        <section id=cases>
+            <h2>Cases de Sucesso</h2>
+            <div id="content-case">
+                        <div class="relatos">
+                            <p>
+                                "Precisei me mudar para o Rio de Janeiro para estudar. Foi difícil encontrar um lugar, até conhecer a F4life. Incrível, tudo feito pelo aplicativo e na mesma semana já me mudei e deu tudo certo."
+                            </p>
+                        <img src="img/case.jpg" alt="cliente" class="img-cases">
+                        <h3>Juliana Lúcia - universitária</h3>
+                        </div>
+                        <div class="relatos">
+                            <p>
+                            "Já alugávamos nosso imóvel para os estudantes que vinham da cidade para estudar aqui, mas poucos nos conheciam. Depois de anunciar na F4life, todas as vagas estão sempre ocupadas." 
+                            </p>
+                            <img src="img/case-proprietarios.jpg" alt="cliente-proprietarios" class="img-cases">
+                            <h3>Janete Nunes e Francisco Nunes - proprietários </h3>
+                        </div>
+            </div>
+        </section>
+        <!-- Keivia -->
+        <section id="quem-somos">
+            <h2>QUEM SOMOS</h2>
+            <div class="text-phot-who">
+                <img class="img-Sobre" src="./img/quem.jpg" alt="republica">
+                <p>A F4Life existe para auxiliar estudantes a escolher o melhor lugar para morar e cuidar dele durante
+                    seu tempo na universidade. Sabemos que você precisa de tempo e tranquilidade para se dedicar aos
+                    estudos e relaxar e a F4life cuidará de tudo para você te apresentando os melhores ambientes nos
+                    melhores locais, oferencendo as reformas necessárias e tudo isso com tranquilidade. Com alguns
+                    cliques, resolvemos tudo para você. </p>
+            </div>
+        </section>
+        <!-- Janaylla -->
+        <footer id="footer">
             <div id="redes-socias">
                 <h4> Redes Sociais</h4>
-                <img src="img/icone-instagram.svg">
-                <img src="img/icone-TWITTER.svg">
-                <img src="img/icone-YOUTUBE.svg">
-                <img src="img/icone-LINKEDIN.svg">
+                <a href="https://instagram.com" target="_blanck"><img src="img/icone-instagram.svg"></a>
+            <a href="https://twitter.com" target="_blanck"><img src="img/icone-TWITTER.svg"></a>
+               <a href="https://youtube.com.br" target="_blanck"> <img src="img/icone-YOUTUBE.svg"></a>
+                <a href="https://linkedin.com" target="_blanck"><img src="img/icone-LINKEDIN.svg"></a>
             </div>
             <div id="endereco">
                 <h4> © 2021 f4 life S.A. 18.932.900/0022-52
                     Rua Dois, 120 - São Paulo, SP - 92371-000</h4>
 
-            </div><div id="ajuda">
+            </div>
+            
+            <div id="ajuda">
                 <h4>
                     Como falar com a gente?</h4>
                 <h4>
@@ -89,7 +173,8 @@
                 <h4>
                     imprensa@f4life.com.br</h4>
                 <h4>
-                    Fale com nossa equipe de Relações Públicas</h4>
+                    Fale com nossa equipe de Relações Públicas
+                </h4>
             </div>
         </footer>
 </body>
