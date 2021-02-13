@@ -397,8 +397,8 @@ footer #redes-socias img{
 #quem-somos{
     padding: 20px;
     font-family: 'Barlow', sans-serif;
-    border-top: 1px solid gray;
 }
+
 .text-phot-who{
     display: flex;
     justify-content: space-between;
@@ -537,7 +537,6 @@ footer #redes-socias img{
 #quem-somos{
     padding: 20px;
     font-family: 'Barlow', sans-serif;
-    border-top: 1px solid gray;
 }
 .text-phot-who{
     display: flex;
@@ -651,9 +650,7 @@ footer #redes-socias img{
                 width: 43%;
         }
 }
-#cases{
-    border-top: 1px solid gray;
-}
+
 #content-case{
     padding-top: 30px;
     display: flex;
